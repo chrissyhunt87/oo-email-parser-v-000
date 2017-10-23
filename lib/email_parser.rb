@@ -4,7 +4,6 @@
 # or whitespace (' ').
 
 class EmailParser
-  attr_accessor :email_list
 
   def parse(emails)
     emails_array = emails.split(/\s|\,\s|\,/)
