@@ -5,10 +5,10 @@
 
 class EmailParser
   attr_accessor :email_list
-  
+
   def parse(emails)
     emails_array = emails.split(/\s|\,\s|\,/)
-    
+    emails_array.uniq
   end
-  
+
 end
